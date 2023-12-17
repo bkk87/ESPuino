@@ -55,8 +55,8 @@
     // Rotary encoder
     #ifdef USEROTARY_ENABLE
         //#define REVERSE_ROTARY                        // To reverse encoder's direction; switching CLK / DT in hardware does the same
-        #define ROTARYENCODER_CLK           34          // rotary encoder's CLK
-        #define ROTARYENCODER_DT            39          // 39 = 'VN'; rotary encoder's DT
+        #define ROTARYENCODER_CLK           39          // rotary encoder's CLK
+        #define ROTARYENCODER_DT            34          // 39 = 'VN'; rotary encoder's DT
     #endif
 
     // Amp enable (optional)
